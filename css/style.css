@@ -35,6 +35,8 @@ img {
   top: 0;
   background-color: transparent !important;
   font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
 }
 
 .collapse {
@@ -53,7 +55,6 @@ img {
   font-size: 30px;
   font-family: sans-serif;
   margin-left: 5%;
-  color: #6c757d;
 }
 /* end nav */
 
