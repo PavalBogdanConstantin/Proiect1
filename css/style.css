@@ -1,33 +1,40 @@
 /* start reset */
-
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
+
 html {
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
+
 body {
   position: relative;
 }
+
 img {
   display: block;
   width: 100%;
 }
+
 .container-fluid {
   width: 100%;
 }
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
-/* end reset */
 
+/* end reset */
 /* nav */
 .navbar {
   width: 100%;
@@ -40,15 +47,26 @@ img {
 }
 
 .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
 }
 
 .navbar-light .navbar-brand {
@@ -56,7 +74,6 @@ img {
   font-family: sans-serif;
   margin-left: 5%;
 }
-/* end nav */
 
 /* container-1  */
 .hero {
@@ -67,22 +84,25 @@ img {
 
 .description {
   position: absolute;
-  top: 20%;
-  left: 20%;
+  top: 12%;
+  left: 45%;
   letter-spacing: 100px;
-  margin-top: 20px;
-  margin-left: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   color: #6c757d;
 }
 
-/* end container-1 */
-/* container-2 */
 .content-romanian-text {
   padding-top: 60px;
 }
@@ -90,4 +110,102 @@ img {
 .color {
   background-color: #f8edeb;
 }
-/* end container-2 */
+
+.title,
+.title-map {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.padding {
+  padding: 25px 0px;
+}
+
+.margin {
+  padding-top: 70px;
+}
+
+.description-work {
+  padding-left: 10px;
+}
+
+footer {
+  background: #f8edeb;
+}
+
+body > .card-hero {
+  margin: 0;
+  padding: 0;
+}
+
+body > .card-hero h1,
+body > .card-hero h2,
+body > .card-hero h3,
+body > .card-hero h4,
+body > .card-hero h5,
+body > .card-hero h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.card-hero {
+  background: #e9ecef;
+  height: 100vh;
+  font-family: "Akaya Telivigala", cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card {
+  background-color: #e9b851;
+  margin-top: 50%;
+}
+
+.card > img {
+  display: block;
+}
+
+.img-profile {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 10px auto;
+  border: 5px solid #fafafa;
+}
+
+.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35%;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.column > .col {
+  padding: 0;
+}
+
+.contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fa {
+  padding: 0 5px;
+  color: black;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
