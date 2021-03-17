@@ -1,17 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
-body > .card-hero {
-  margin: 0;
-  padding: 0;
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-    padding: 0;
-  }
-}
 
 .card-hero {
   background: #e9ecef;
@@ -22,10 +9,7 @@ body > .card-hero {
 .card {
   background-color: #e9b851;
   margin-top: 50%;
-}
-
-.card > img {
-  display: block;
+  border-radius: 5.5px;
 }
 
 .img-profile {
@@ -40,11 +24,6 @@ body > .card-hero {
   flex-direction: column;
   width: 35%;
   margin: 0 auto;
-  border-radius: 7px;
-}
-
-.column > .col {
-  padding: 0;
 }
 
 .contact-card {

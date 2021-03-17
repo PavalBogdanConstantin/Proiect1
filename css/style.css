@@ -133,21 +133,6 @@ footer {
   background: #f8edeb;
 }
 
-body > .card-hero {
-  margin: 0;
-  padding: 0;
-}
-
-body > .card-hero h1,
-body > .card-hero h2,
-body > .card-hero h3,
-body > .card-hero h4,
-body > .card-hero h5,
-body > .card-hero h6 {
-  margin: 0;
-  padding: 0;
-}
-
 .card-hero {
   background: #e9ecef;
   font-family: "Akaya Telivigala", cursive;
@@ -158,10 +143,7 @@ body > .card-hero h6 {
 .card {
   background-color: #e9b851;
   margin-top: 50%;
-}
-
-.card > img {
-  display: block;
+  border-radius: 5.5px;
 }
 
 .img-profile {
@@ -179,11 +161,6 @@ body > .card-hero h6 {
           flex-direction: column;
   width: 35%;
   margin: 0 auto;
-  border-radius: 7px;
-}
-
-.column > .col {
-  padding: 0;
 }
 
 .contact-card {
