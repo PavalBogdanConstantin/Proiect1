@@ -142,10 +142,11 @@ footer {
 
 .card {
   background-color: #e9b851;
-  margin-top: 50%;
   border-radius: 5.5px;
   -webkit-box-shadow: -1px -2px 36px 7px rgba(233, 184, 81, 0.65);
   box-shadow: -1px -2px 36px 7px rgba(233, 184, 81, 0.65);
+  width: 320px;
+  margin: 0 auto;
 }
 
 .img-profile {
@@ -161,8 +162,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 1120px;
-  margin: 0 auto;
+  max-width: 960px;
 }
 
 .contact-card {
