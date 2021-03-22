@@ -24,7 +24,7 @@
 
 .column {
   flex-direction: column;
-  width: 35%;
+  width: 1120px;
   margin: 0 auto;
 }
 
@@ -39,17 +39,4 @@
   padding: 0 5px;
   color: black;
   font-size: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .column {
-    width: 35%;
-  }
-  .card-name > h1 {
-    font-size: 1.9rem;
-  }
-
-  .card-description > p {
-    font-size: 1.2rem;
-  }
 }

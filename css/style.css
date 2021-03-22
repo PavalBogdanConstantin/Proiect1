@@ -161,7 +161,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 35%;
+  width: 1120px;
   margin: 0 auto;
 }
 
@@ -185,17 +185,5 @@ footer {
   padding: 0 5px;
   color: black;
   font-size: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .column {
-    width: 35%;
-  }
-  .card-name > h1 {
-    font-size: 1.9rem;
-  }
-  .card-description > p {
-    font-size: 1.2rem;
-  }
 }
 /*# sourceMappingURL=style.css.map */
