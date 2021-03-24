@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -133,46 +133,88 @@ footer {
   background: #f8edeb;
 }
 
-.card-hero {
-  background: #e9ecef;
-  font-family: "Akaya Telivigala", cursive;
-  font-weight: 400;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-  background-color: #e9b851;
-  border-radius: 5.5px;
-  -webkit-box-shadow: -1px -2px 36px 7px rgba(233, 184, 81, 0.65);
-  box-shadow: -1px -2px 36px 7px rgba(233, 184, 81, 0.65);
-  width: 320px;
-  margin: 0 auto;
+img {
+  display: block;
 }
 
-.img-profile {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  margin: 10px auto;
-  border: 5px solid #fafafa;
+.color-background-fluid {
+  background-color: #f4f3ee;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
-.column {
+.center-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 960px;
+  background-color: beige;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 7px;
+  -webkit-box-shadow: 0px 0px 23px 5px rgba(255, 214, 148, 0.54);
+  box-shadow: 0px 0px 23px 5px rgba(255, 214, 148, 0.54);
+  background: #c4a659;
+  background: linear-gradient(345deg, #c4a659 0%, #f1f1f1 100%);
+  margin-top: 50px;
+}
+
+.img {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 7px;
+  border: 2px solid black;
+}
+
+.total-description {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Kiwi Maru", serif;
+  padding: 7px 3px;
+}
+
+.name h2 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.profesion p {
+  font-size: 0.8em;
 }
 
 .contact-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -182,8 +224,7 @@ footer {
 }
 
 .fa {
-  padding: 0 5px;
-  color: black;
-  font-size: 20px;
+  padding: 12px;
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */

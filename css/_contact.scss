@@ -1,42 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
-
-.card-hero {
-  background: #e9ecef;
-  font-family: "Akaya Telivigala", cursive;
-  font-weight: 400;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-.card {
-  background-color: #e9b851;
-  border-radius: 5.5px;
-  -webkit-box-shadow: -1px -2px 36px 7px rgba(233, 184, 81, 0.65);
-  box-shadow: -1px -2px 36px 7px rgba(233, 184, 81, 0.65);
-  width: 320px;
-  margin: 0 auto;
+img {
+  display: block;
+}
+.color-background-fluid {
+  background-color: #f4f3ee;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
-.img-profile {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  margin: 10px auto;
-  border: 5px solid #fafafa;
+.center-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.column {
+.box {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  max-width: 960px;
+  background-color: beige;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  -webkit-box-shadow: 0px 0px 23px 5px rgba(255, 214, 148, 0.54);
+  box-shadow: 0px 0px 23px 5px rgba(255, 214, 148, 0.54);
+  background: rgb(196, 166, 89);
+  background: linear-gradient(
+    345deg,
+    rgba(196, 166, 89, 1) 0%,
+    rgba(241, 241, 241, 1) 100%
+  );
+  margin-top: 50px;
 }
 
+.img {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 7px;
+  border: 2px solid black;
+}
+.total-description {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Kiwi Maru", serif;
+  padding: 7px 3px;
+}
+.name h2 {
+  font-size: 1em;
+  font-weight: 600;
+}
+.profesion p {
+  font-size: 0.8em;
+}
 .contact-card {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .fa {
-  padding: 0 5px;
-  color: black;
-  font-size: 20px;
+  padding: 12px;
+  color: #000;
 }
